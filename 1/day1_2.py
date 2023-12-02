@@ -1,6 +1,6 @@
 '''
 DAY1_Part2:
-- Some of the numbers were spelled out with letters
+- First attempt. Ignore
 - Works for test1 and test2 but not input... :(
 
 '''
