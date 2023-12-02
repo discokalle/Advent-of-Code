@@ -3,6 +3,7 @@ DAY1:
 - Take first and last number of each line as a two digit number.
 - If only one number, repeat for second digit
 - Add all numbers
+- Some of the numbers were spelled out with letters
 '''
 
 input_file = open('input.txt', 'r')
