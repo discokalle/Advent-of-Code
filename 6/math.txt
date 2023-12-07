@@ -1,0 +1,10 @@
+t_travel = t_race - t_button
+distance = t_travel*t_button =
+         = t_race*t_button - t_button^2                   -->
+t_button^2 - t_race*t_button + distance = 0               -->
+(t_button - t_race/2)^2 + distance - (t_race^2)/4 = 0     -->
+t_button = t_race/2 (+or-) sqrt((t_race^2)/4 - distance)     
+
+The number of solutions are:
+n = floor(t1) - floor(t2) - 1 if integers     
+  = floor(t1) - floor(t2)     else
