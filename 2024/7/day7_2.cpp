@@ -13,9 +13,9 @@ bool search(const std::vector<long long>& nums, const long long& total) { //recu
         new_nums.erase(new_nums.begin()); //first 2 numbers replaced with result
         return search(new_nums, total); //recursive call 
     };
-    return try_operation(std::multiplies<long long>()) || try_operation(std::plus<long long>());//* first, + second.
+    return try_operation(std::multiplies<long long>()) || try_operation(std::plus<long long>()) ||
+    try_operation([](long long a, long long b) { return std::stoll(std::to_string(a) + std::to_string(b)); }); //new operator conc
 }
-
 int main() {
     std::ifstream file{"input.txt"};
     std::string line{};
